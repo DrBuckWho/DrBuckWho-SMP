@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-2.6.2.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.7.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-2.6.2** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.7.0** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -102,8 +102,12 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 2.6.2 |
+| Pack | 2.7.0 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
 This is a private server project and is not affiliated with Mojang or Microsoft. Minecraft is a trademark of Mojang AB.
+
+## Distant terrain
+
+The pack includes **Distant Horizons** (far terrain out to 256 chunks, set to its highest quality) plus ModernFix, FerriteCore, Lithium, ImmediatelyFast and Entity Culling for speed. Normal chunk range is 16. Give the game plenty of memory: in Prism open the instance, Settings, Java, and set the maximum memory to 10-12 GB if your PC has the RAM.
