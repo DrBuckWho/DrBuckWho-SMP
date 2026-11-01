@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-1.13.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-1.14.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-1.13.0** appears in your list.
+3. A new instance called **DrBuckWho-SMP-1.14.0** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -62,9 +62,9 @@ Sodium, Iris, JEI, KubeJS, Rhino and the shaders are **downloaded from Modrinth 
 | `/stock` | Stock market simulator |
 | `/gamble` | Casino: coin flip and blackjack |
 | `/sell`, `/buy`, `/balance` | Quick selling, buying and your balance |
-| `/home` | Save up to 20 homes and teleport to any of them. The last home you go to is your respawn point |
+| `/home` | Save up to 20 homes and teleport to any of them. The last home you go to is your **active home**: it is where you respawn if you die. The world spawn and beds are never used. With no home you respawn at a random spot |
 | `/rtp` | Teleport to a random spot in the world |
-| **H** | Town portal: go to your bed (or spawn) and leave a portal to come back through. Change the key under **Controls → DrBuckWho SMP** |
+| **H** | Town portal: go to your active home and leave a portal behind. Step through the portal at home to return to where you pressed H; both portals then disappear. Change the key under **Controls → DrBuckWho SMP** |
 
 Crafted items:
 - **Auto-Condenser Chest**: chest + crafting table. Turns what is inside into enchanted items.
@@ -93,7 +93,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 1.13.0 |
+| Pack | 1.14.0 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
