@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-1.15.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-1.16.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-1.15.0** appears in your list.
+3. A new instance called **DrBuckWho-SMP-1.16.0** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -57,8 +57,8 @@ Sodium, Iris, JEI, KubeJS, Rhino and the shaders are **downloaded from Modrinth 
 
 | Command or key | What it does |
 | --- | --- |
-| `/market` | Buy and sell items at the market |
-| `/ah` | Player auction house (sell the item in your hand with `/ah sell <price>`) |
+| `/market` | The market. The server owner can switch it (button at the top) between **Live market** prices and the **DrBuckWho SMP market**, a player-run order market: place a buy order (item, amount, price per item), sell into other players' orders, and collect what you bought from a chest window with **Collect purchases** |
+| `/ah` | Auction house. In the DrBuckWho SMP market it holds players' own listings (one slot of items at a price you choose; sell the item in your hand with `/ah sell <price>`) |
 | `/stock` | Stock market simulator |
 | `/gamble` | Casino: coin flip and blackjack |
 | `/sell`, `/buy`, `/balance` | Quick selling, buying and your balance |
@@ -96,7 +96,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 1.15.0 |
+| Pack | 1.16.0 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
