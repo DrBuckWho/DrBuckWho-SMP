@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-1.18.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.0.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-1.18.0** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.0.0** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -59,12 +59,15 @@ Sodium, Iris, JEI, KubeJS, Rhino and the shaders are **downloaded from Modrinth 
 | --- | --- |
 | `/market` | The market. The server owner can switch it (button at the top) between **Live market** prices and the **DrBuckWho SMP market**, a player-run order market: place a buy order (item, amount, price per item), sell into other players' orders, and collect what you bought from a chest window with **Collect purchases** |
 | `/ah` | Auction house. In the DrBuckWho SMP market it holds players' own listings (one slot of items at a price you choose; sell the item in your hand with `/ah sell <price>`) |
-| `/stock` | Stock market simulator |
-| `/gamble` | Casino: coin flip and blackjack |
-| `/sell`, `/buy`, `/balance` | Quick selling, buying and your balance |
+| `/market` | The market. The server owner can switch it (button at the top) between **Live market** prices (3% fee on buys and sells, paid by the server bank) and the **DrBuckWho SMP market**, a player-run order market: place a buy order (item, amount, price per item), sell into other players' orders (3% fee from the seller), and collect what you bought from a chest window with **Collect purchases** |
+| `/ah` | Auction house (5% fee from the seller). In the DrBuckWho SMP market it holds players' own listings (one slot of items at a price you choose; sell the item in your hand with `/ah sell <price>`) |
+| `/stock` | **Player stocks.** Every player is a stock of 1,000 shares of themselves. List part of yourself (up to 49%), trade shares on an order book, and earn dividends from other players' market income and casino profit. The **Server Index (SIDX)** pays holders a share of the server's daily fees |
+| `/gamble` | Casino: coin flip and blackjack, backed by the server bank |
+| `/sell`, `/buy`, `/balance` | Quick selling, buying and your balance. Your inventory panel and each Auto-Sell Chest can sell to the **live market** or to **players' buy orders** |
+| `/bank` | The server bank's balance. Everything in the economy is closed: the bank only gains money from fees and losses and only loses it by paying live-market sales, new-player money and casino wins |
 | `/home` | Save up to 20 homes and teleport to any of them. The last home you go to is your **active home**: it is where you respawn if you die. The world spawn and beds are never used. With no home you respawn at the spot of your last `/rtp` |
 | `/rtp` | Teleport to a truly random spot anywhere in the world. Spots are prepared in the background ahead of time, so it is instant |
-| `/pay <player> <amount>` | Send money to a player who is online (`1500`, `2.5k` and `3m` all work) |
+| `/pay <player> <amount>` | Send money to a player who is online (`1500`, `2.5k` and `3m` all work). You pay a 1% fee on top; the receiver gets the full amount |
 | `/tpa <player>`, `/tpahere <player>` | Ask to teleport to a player, or ask them to come to you. They answer with `/tpaccept` or `/tpdeny` (or the chat buttons); `/tpcancel` cancels yours |
 | `/help` | Lists these commands and the custom items |
 | **H** | Town portal: go to your active home and leave a portal behind. Step through the portal at home to return to where you pressed H; both portals then disappear. Change the key under **Controls → DrBuckWho SMP** |
@@ -96,7 +99,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 1.18.0 |
+| Pack | 2.0.0 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
