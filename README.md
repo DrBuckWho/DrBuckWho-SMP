@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-2.2.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.3.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-2.2.0** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.3.0** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -61,7 +61,7 @@ Sodium, Iris, JEI, KubeJS, Rhino and the shaders are **downloaded from Modrinth 
 | `/ah` | Auction house. In the DrBuckWho SMP market it holds players' own listings (one slot of items at a price you choose; sell the item in your hand with `/ah sell <price>`) |
 | `/market` | The market. Anyone can switch it (button at the top) between the **Live market** (3% fee on buys and sells, paid by the server bank) and the **DrBuckWho SMP market**, a player-run order market: place a buy order (item, amount, price per item), sell into other players' orders (3% fee from the seller), and collect what you bought from a chest window with **Collect purchases** |
 | `/ah` | Auction house (5% fee from the seller). In the DrBuckWho SMP market it holds players' own listings (one slot of items at a price you choose; sell the item in your hand with `/ah sell <price>`) |
-| `/stock` | **Player stocks.** Every player is a stock of 1,000 shares of themselves. List part of yourself (up to 49%), trade shares on an order book, and earn dividends from other players' market income and casino profit. The **Server Index (SIDX)** pays holders a share of the server's daily fees |
+| `/stock` | **Player stocks.** Every player is a stock of 1,000 shares of themselves. List part of yourself (up to 49%), trade shares on an order book, and earn dividends from other players' market income and casino profit. The **Server Index (SIDX)** pays holders a share of every fee the server collects, instantly |
 | `/gamble` | Casino: coin flip and blackjack, backed by the server bank |
 | `/sell`, `/buy`, `/balance` | Quick selling, buying and your balance. Your inventory panel, the sell window and each Auto-Sell Chest can sell to the **best price** (default: players' buy orders that pay more than the live market first, then the live market), only the **live market**, or only **players' buy orders**. Click the small button to change it |
 | `/bank` | The server bank's balance. Everything in the economy is closed: the bank only gains money from fees and losses and only loses it by paying live-market sales, new-player money and casino wins |
@@ -100,7 +100,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 2.2.0 |
+| Pack | 2.3.0 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
