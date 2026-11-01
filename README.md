@@ -38,7 +38,7 @@ The pack comes with **Complementary Reimagined** shaders already switched on, us
 
 ### 8. Join the server
 1. In Minecraft click **Multiplayer**, then **Add Server**.
-2. Enter the server address that DrBuckWho gave you and click **Done**, then join.
+2. Enter the server address `drbuckwho.com` and click **Done**, then join.
 
 ## What is in the pack
 
