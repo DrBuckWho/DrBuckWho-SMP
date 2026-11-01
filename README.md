@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-2.6.0.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.6.1.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-2.6.0** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.6.1** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -78,7 +78,7 @@ Crafted items:
 - **Auto-Sell Chest**: emerald + chest. Sells what is inside; open it and press **Claim** to collect the money.
 - **Autocrafter V2**: crafter + diamond block. Set a recipe once, fill it with hoppers, craft with a redstone pulse. If the same item is in several cells it is shared evenly between them.
 - **Order Chest**: book + emerald block + chest. Pick an item and a price and fund it with money from your balance; it keeps a buy order open for as much as fits inside, and buys from the live market instead when that is cheaper. It only spends the funds you put in.
-- **Magnetic Conveyor**: iron ingots + redstone + lapis. A rail-like belt for dropped items: it pulls items from a block around onto its middle, carries them, ramps up or down one block, turns, and drops them off the end (or into a chest in front).
+- **Magnetic Conveyor**: leather + iron ingots + redstone (3 leather on top; iron, redstone, iron below; makes 6). A rail-like belt for dropped items: it pulls items from a block around onto its middle, carries them, ramps up or down one block, turns, and drops them off the end (or into a chest in front).
 - **Portable Beacon**: netherite block + lead. Its powers work from your inventory.
 - **Replant** enchantment: a rare drop from farmer villagers. Hoes with it replant crops.
 
@@ -102,7 +102,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 2.6.0 |
+| Pack | 2.6.1 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
