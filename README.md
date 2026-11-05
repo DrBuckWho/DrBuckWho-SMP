@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-2.7.2.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.7.3.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-2.7.2** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.7.3** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -102,7 +102,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 2.7.2 |
+| Pack | 2.7.3 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
@@ -111,3 +111,7 @@ This is a private server project and is not affiliated with Mojang or Microsoft.
 ## Distant terrain
 
 The pack includes **Distant Horizons** (far terrain out to 256 chunks, set to its highest quality) plus ModernFix, FerriteCore, Lithium, ImmediatelyFast and Entity Culling for speed. Normal chunk range is 16. Distant Horizons only draws terrain that already exists; it does not generate extra chunks, so there is no slow distant generation. C2ME speeds up normal chunk generation, also in single player. Give the game plenty of memory: in Prism open the instance, Settings, Java, and set the maximum memory to 10-12 GB if your PC has the RAM.
+
+## Third person
+
+The pack includes **Shoulder Surfing Reloaded**. Press **F5** to switch to the over-the-shoulder camera, which has a crosshair showing where you are aiming (it turns into a moving aim marker when you hold a bow, crossbow or throwable). Press F5 again to cycle the other views. Camera distance, side and crosshair style are in the mod's settings (Mods, Shoulder Surfing).
