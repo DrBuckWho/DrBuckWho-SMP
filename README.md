@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-2.7.3.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.7.4.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-2.7.3** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.7.4** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -66,6 +66,8 @@ Sodium, Iris, JEI, KubeJS, Rhino and the shaders are **downloaded from Modrinth 
 | `/sell`, `/buy`, `/balance` | Quick selling, buying and your balance. Your inventory panel, the sell window and each Auto-Sell Chest can sell to the **best price** (default: players' buy orders that pay more than the live market first, then the live market), only the **live market**, or only **players' buy orders**. Click the small button to change it |
 | `/bank` | The server bank's balance. Everything in the economy is closed: the bank only gains money from fees and losses and only loses it by paying live-market sales, new-player money and casino wins |
 | `/bankadmin` | Server owner only: the bank dashboard (money flow, runway, mint and burn) |
+| `/backlog` | Server owner only: keep a list of dev-work ideas, pick 3 to put to a vote, close the vote and see past results |
+| `/vote` | Cast your ballot in the owner's current backlog vote, or see the result of the last one |
 | `/home` | Save up to 20 homes and teleport to any of them. The last home you go to is your **active home**: it is where you respawn if you die. The world spawn and beds are never used. With no home you respawn at the spot of your last `/rtp` |
 | `/rtp` | Teleport to a truly random spot anywhere in the world. Spots are prepared in the background ahead of time, so it is instant |
 | `/pay <player> <amount>` | Send money to a player who is online (`1500`, `2.5k` and `3m` all work). You pay a 1% fee on top; the receiver gets the full amount |
@@ -102,7 +104,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 2.7.3 |
+| Pack | 2.7.4 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
