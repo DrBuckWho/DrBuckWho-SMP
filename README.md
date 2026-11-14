@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-2.7.4.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.7.5.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-2.7.4** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.7.5** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -74,6 +74,7 @@ Sodium, Iris, JEI, KubeJS, Rhino and the shaders are **downloaded from Modrinth 
 | `/tpa <player>`, `/tpahere <player>` | Ask to teleport to a player, or ask them to come to you. They answer with `/tpaccept` or `/tpdeny` (or the chat buttons); `/tpcancel` cancels yours |
 | `/help` | Lists these commands and the custom items |
 | **H** | Town portal: go to your active home and leave a portal behind. Step through the portal at home to return to where you pressed H; both portals then disappear. Change the key under **Controls → DrBuckWho SMP** |
+| `//wand`, `//pos1`, `//pos2`, `//set`, `//replace`, `//count` | Server owner only: the World Edit Axe and its selection commands (left-click sets position 1, right-click sets position 2, then fill, replace or count blocks in the box between them) |
 
 Crafted items:
 - **Auto-Condenser Chest**: chest + crafting table. Turns what is inside into enchanted items.
@@ -83,6 +84,7 @@ Crafted items:
 - **Magnetic Conveyor**: leather + iron ingots + redstone (3 leather on top; iron, redstone, iron below; makes 6). A rail-like belt for dropped items: it pulls items from a block around onto its middle, carries them, ramps up or down one block, turns, and drops them off the end (or into a chest in front).
 - **Portable Beacon**: netherite block + lead. Its powers work from your inventory.
 - **Replant** enchantment: a rare drop from farmer villagers. Hoes with it replant crops.
+- **Drill I** / **Drill II** enchantments: pickaxe enchantments that mine a 3x3 or 5x5 area in the plane you're facing (look straight ahead to tunnel, up or down to dig a shaft or floor). Drill I rarely falls out of a mined ore; Drill II rarely drops from a slain Wither.
 
 ## Updating the pack
 
@@ -104,7 +106,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 2.7.4 |
+| Pack | 2.7.5 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
