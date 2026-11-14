@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-2.7.7.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.7.8.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-2.7.7** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.7.8** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -74,7 +74,7 @@ Sodium, Iris, JEI, KubeJS, Rhino and the shaders are **downloaded from Modrinth 
 | `/tpa <player>`, `/tpahere <player>` | Ask to teleport to a player, or ask them to come to you. They answer with `/tpaccept` or `/tpdeny` (or the chat buttons); `/tpcancel` cancels yours |
 | `/help` | Lists these commands and the custom items |
 | **H** | Town portal: go to your active home and leave a portal behind. Step through the portal at home to return to where you pressed H; both portals then disappear. Change the key under **Controls → DrBuckWho SMP** |
-| `//wand`, `//pos1`, `//pos2`, `//set`, `//replace`, `//count`, `//copy`, `//paste`, `//undo`, `//redo` | Server owner only: the World Edit Axe and its selection commands (left-click sets position 1, right-click sets position 2, then fill, replace or count blocks in the box between them; copy/paste a selection anchored to your position, and undo/redo the last 20 changes) |
+| `//wand`, `//pos1`, `//pos2`, `//set`, `//replace`, `//count`, `//copy`, `//paste`, `//here`, `//undo`, `//redo` | Server owner only: the World Edit Axe and its selection commands (left-click sets position 1, right-click sets position 2, then fill, replace or count blocks in the box between them; copy/paste a selection anchored to your position, `//here` aims the block you're looking at so the next `//paste` lands its corner exactly there, and undo/redo the last 20 changes) |
 
 Crafted items:
 - **Auto-Condenser Chest**: chest + crafting table. Turns what is inside into enchanted items.
@@ -106,7 +106,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 2.7.7 |
+| Pack | 2.7.8 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
