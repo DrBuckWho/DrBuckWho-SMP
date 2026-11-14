@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-2.7.9.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.7.10.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-2.7.9** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.7.10** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -77,7 +77,7 @@ Sodium, Iris, JEI, KubeJS, Rhino and the shaders are **downloaded from Modrinth 
 | `//wand`, `//pos1`, `//pos2`, `//set`, `//replace`, `//fill`, `//cut`, `//count`, `//copy`, `//paste`, `//here`, `//undo`, `//redo` | Server owner only: the World Edit Axe and its selection commands (left-click sets position 1, right-click sets position 2, then set, replace, fill or count blocks in the box between them; `//fill <block> [block...]` accepts several block types at once, space-separated, and mixes them evenly at random through the selection (air is a valid type, for clearing space); `//cut` copies the selection and clears it to air in one step; copy/paste a selection anchored to your position, `//here` aims the block you're looking at so the next `//paste` lands its corner exactly there, and undo/redo the last 20 changes) |
 
 Crafted items:
-- **Auto-Condenser Chest**: chest + crafting table. Turns what is inside into enchanted items.
+- **Auto-Condenser Chest**: chest + crafting table. Turns what is inside into enchanted items. Hoppers and pipes can only pull the finished enchanted items back out, never the raw materials you're feeding it.
 - **Auto-Sell Chest**: emerald + chest. Sells what is inside; open it and press **Claim** to collect the money.
 - **Autocrafter V2**: crafter + diamond block. Set a recipe once, fill it with hoppers, craft with a redstone pulse. If the same item is in several cells it is shared evenly between them.
 - **Order Chest**: book + emerald block + chest. Pick an item and a price and fund it with money from your balance; it keeps a buy order open for as much as fits inside, and buys from the live market instead when that is cheaper. It only spends the funds you put in.
@@ -106,7 +106,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 2.7.9 |
+| Pack | 2.7.10 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
