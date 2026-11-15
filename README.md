@@ -51,7 +51,7 @@ The pack comes with **Complementary Reimagined** shaders already switched on, us
 | [JEI](https://modrinth.com/mod/jei) | Shows every recipe and item (press **R** or **U** on an item) |
 | [KubeJS](https://modrinth.com/mod/kubejs) and [Rhino](https://modrinth.com/mod/rhino) | The enchanted-resource recipes |
 | [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | Proximity voice chat. Works automatically once you allow microphone access in-game; no key needed to talk unless you turn on push-to-talk in **Options → Voice Chat** |
-| [Forgematica](https://modrinth.com/mod/forgematica) + [MaFgLib](https://modrinth.com/mod/mafglib) | A schematic mod (an unofficial NeoForge port of Litematica) for previewing and placing build schematics. Client-only, so it works the same even if the server doesn't have it. Keybinds are unbound by default — set them in **Options → Controls → Litematica**. Its **Easy Place** feature can look like block-placement cheating to anti-cheat on servers that don't allow it; it's fine here, but don't expect it to work everywhere |
+| [Forgematica](https://modrinth.com/mod/forgematica) + [MaFgLib](https://modrinth.com/mod/mafglib) | A schematic mod (an unofficial NeoForge port of Litematica) for previewing and placing build schematics. Client-only, so it works the same even if the server doesn't have it. Press **M** to open its menu (see *Schematic tool* below) — it does **not** use the vanilla Options → Controls screen or have a Mods-list config button; all its settings are reached from that in-game menu. Its **Easy Place** feature can look like block-placement cheating to anti-cheat on servers that don't allow it; it's fine here, but don't expect it to work everywhere |
 
 Sodium, Iris, JEI, KubeJS, Rhino, Simple Voice Chat, Forgematica, MaFgLib and the shaders are **downloaded from Modrinth by Prism** when you import the pack. They are not stored in this repository. The pack has **no minimap** on purpose.
 
@@ -121,3 +121,14 @@ The pack includes **Distant Horizons** (far terrain out to 128 chunks, medium qu
 ## Third person
 
 The pack includes **Shoulder Surfing Reloaded**. Press **F5** to switch to the over-the-shoulder camera, which has a crosshair showing where you are aiming (it turns into a moving aim marker when you hold a bow, crossbow or throwable). Press F5 again to cycle the other views. Camera distance, side and crosshair style are in the mod's settings (Mods, Shoulder Surfing).
+
+## Schematic tool (Forgematica)
+
+Forgematica lets you save part of the world as a file and load it back later as a translucent preview you can build against. Everything is done from its own in-game menu, press **M** to open it:
+
+1. Press **M**, then click **Area Editor**.
+2. Stand at one corner of the area you want to save and click **Move to player** under **Corner 1**. Walk to the opposite corner and click **Move to player** under **Corner 2** (you can also type the X/Y/Z numbers in directly instead of walking).
+3. Click **Save Schematic**, give it a name (or keep the default) and click **Save Schematic** again. The file is saved to your instance's `schematics` folder.
+4. Press **M** again and click **Load Schematics** to see and load any saved file back as a ghost preview placed in the world — place blocks over the ghost to build the real thing.
+
+This is a client-side feature; it works the same whether or not anyone else is online, and nothing is uploaded anywhere.
