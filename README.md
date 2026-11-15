@@ -15,13 +15,13 @@ Everything you need to play on the DrBuckWho SMP server: a ready-made modpack fo
 2. Follow the sign-in steps (a code and a Microsoft page). Close the window when it shows your account name.
 
 ### 3. Download the pack
-Download **`DrBuckWho-SMP-2.7.11.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
+Download **`DrBuckWho-SMP-2.7.12.mrpack`** from the **[latest release](https://github.com/DrBuckWho/DrBuckWho-SMP/releases/latest)** (or from the [`pack`](https://github.com/DrBuckWho/DrBuckWho-SMP/tree/main/pack) folder in this repo). Do **not** unzip it.
 
 ### 4. Import it into Prism
 1. In Prism click **Add Instance**, choose **Import**, click **Browse** and pick the `.mrpack` file, then **OK**.
    (Or just drag the file onto the Prism window.)
 2. Wait while Prism downloads Minecraft, NeoForge, the mods and the shader pack. This takes a few minutes the first time.
-3. A new instance called **DrBuckWho-SMP-2.7.11** appears in your list.
+3. A new instance called **DrBuckWho-SMP-2.7.12** appears in your list.
 
 ### 5. Give it enough memory
 1. Right-click the instance, choose **Edit**, then **Settings**, then **Java**.
@@ -50,8 +50,10 @@ The pack comes with **Complementary Reimagined** shaders already switched on, us
 | [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined) (shader pack) | Better lighting and graphics |
 | [JEI](https://modrinth.com/mod/jei) | Shows every recipe and item (press **R** or **U** on an item) |
 | [KubeJS](https://modrinth.com/mod/kubejs) and [Rhino](https://modrinth.com/mod/rhino) | The enchanted-resource recipes |
+| [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) | Proximity voice chat. Works automatically once you allow microphone access in-game; no key needed to talk unless you turn on push-to-talk in **Options → Voice Chat** |
+| [Forgematica](https://modrinth.com/mod/forgematica) + [MaFgLib](https://modrinth.com/mod/mafglib) | A schematic mod (an unofficial NeoForge port of Litematica) for previewing and placing build schematics. Client-only, so it works the same even if the server doesn't have it. Keybinds are unbound by default — set them in **Options → Controls → Litematica**. Its **Easy Place** feature can look like block-placement cheating to anti-cheat on servers that don't allow it; it's fine here, but don't expect it to work everywhere |
 
-Sodium, Iris, JEI, KubeJS, Rhino and the shaders are **downloaded from Modrinth by Prism** when you import the pack. They are not stored in this repository. The pack has **no minimap** on purpose.
+Sodium, Iris, JEI, KubeJS, Rhino, Simple Voice Chat, Forgematica, MaFgLib and the shaders are **downloaded from Modrinth by Prism** when you import the pack. They are not stored in this repository. The pack has **no minimap** on purpose.
 
 ## What you can do on the server
 
@@ -106,7 +108,7 @@ Your worlds and items live on the server, so there is nothing to copy. Your vide
 
 | | |
 | --- | --- |
-| Pack | 2.7.11 |
+| Pack | 2.7.12 |
 | Minecraft | 1.21.1 |
 | NeoForge | 21.1.252 (the server runs a newer 21.1 build and works with it) |
 
